@@ -1,0 +1,32 @@
+/* added styling to header element and nav */
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image:url('./img/header-bg-img.jpg');
+    color: #ffffff;  
+    border-radius: 50px;
+    background-position: left top;
+    padding: 30px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 250%;
+}
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
