@@ -1,12 +1,16 @@
 /* added styling to header element and nav */
 header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*looked up how to insert img with-in header element through w3schools.com*/
     background-image:url('./img/header-bg-img.jpg');
     color: #ffffff;  
-    border-radius: 50px;
-    background-position: left top;
-    padding: 30px;
-    height: 150px;
+    border-radius: 60px;
+    justify-content: space-between;
+    padding: 35px;
+    align-items: center;
+    border-bottom-style: solid;
+     border-bottom-width: 5px;
+     display: flex;
 }
 
 h1 {
@@ -23,10 +27,94 @@ header nav {
 header nav ul {
     list-style-type: none;
 }
-
+/*removed underline text from code*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    text-decoration: underline;
     text-transform: capitalize;
 }
+
+/* animation for nav bar */
+nav.shift ul li a {
+    position:relative;
+    z-index: 1;
+    color: white
+  }
+  nav.shift ul li a:hover {
+    color: white;
+  }
+  nav.shift ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: grey;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+  }
+  nav.shift ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+
+.section-style {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+}
+
+.section-title {
+    padding: 20px;
+    color: black;
+    font-size: 200%;
+    width: 33%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .about {
+    width: 66%;
+    font-size: 90%;
+    justify-content: center;
+    padding: 15px;
+    border-left-style: solid;
+    border-left-color: black;
+    display: flex;
+    align-items: center;
+  }
+
+  .about p {
+    flex: 70%;
+    padding: 10px;
+}
+
+.about img {
+    min-width: 200px;
+    max-height: 150px;
+}
+
+/* made a class to re-size my picture*/
+.image {
+    background: #34495e;
+    border: 1px solid #34495e;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+  }
+  
+  .image-contain {
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  
