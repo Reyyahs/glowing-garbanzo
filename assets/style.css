@@ -177,3 +177,26 @@ nav.shift ul li a:hover:after {
   list-style: none;
 
 }
+/* changed flex direction for nav and contact so the contents would'nt get squashed together on smaller screens.
+Also adjusted font size for 'work' links to decrease as screen gets smaller*/
+@media screen and (max-width: 1150px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .contact ul {
+    flex-direction: column;
+    .title {
+      font-size: 175%;
+    }
+  }
+}
+/* changed flex direction for 'about' and 'work' so they will display vertically on smaller screens*/
+@media screen and (max-width: 768px) {
+  .work-examples{
+  flex-wrap: nowrap;
+  flex-direction: column;}
+  .about {
+    flex-wrap: wrap-reverse;
+  }
+}
