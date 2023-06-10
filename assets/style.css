@@ -1,6 +1,6 @@
 /* added styling to header element and nav */
 header {
-  font-family: "copperplate";
+  font-family: 'Times New Roman', Times, serif;
   /* looked up how to insert img within header element through w3schools.com */
   background-image: url('./img/header-bg-img.jpg');
   color: white;
@@ -148,7 +148,33 @@ nav.shift ul li a:hover:after {
   .title {
     bottom: 20px;
     left: 16px;
-    font-family: "copperplate";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 150%;
     color: black;
+}
+/*added style specific for "contact"*/
+.contact {
+  border-left-style: solid;
+  border-left-color: black;
+  width: 66%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact ul {
+  background-image: url(./img/header-bg-img.jpg);
+  border-radius: 50px;
+  padding: 5px;
+  flex: 90%;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  font-size: 135%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  height: 125%;
+  list-style: none;
+
 }
