@@ -176,7 +176,6 @@ nav.shift ul li a:hover:after {
   height: 125%;
   list-style: none;
   padding: 10px;
-
 }
 /* changed flex direction for nav and contact so the contents would'nt get squashed together on smaller screens.
 Also adjusted font size for 'work' links to decrease as screen gets smaller*/
