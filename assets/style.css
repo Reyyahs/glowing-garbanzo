@@ -1,9 +1,9 @@
 /* added styling to header element and nav */
 header {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "copperplate";
   /* looked up how to insert img within header element through w3schools.com */
   background-image: url('./img/header-bg-img.jpg');
-  color: #ffffff;
+  color: white;
   border-radius: 60px;
   justify-content: space-between;
   padding: 35px;
@@ -11,6 +11,7 @@ header {
   border-bottom-style: solid;
   border-bottom-width: 5px;
   display: flex;
+  font-size: 90%;
 }
 
 h1 {
@@ -21,7 +22,7 @@ header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "copperplate";
   font-size: 20px;
 }
 
@@ -110,8 +111,6 @@ nav.shift ul li a:hover:after {
 
 /* made a class to resize my picture */
 .image {
-  background: #34495e;
-  border: 5px solid #34495e;
   width: 200px;
   height: 200px;
   border-radius: 40px;
@@ -123,3 +122,33 @@ nav.shift ul li a:hover:after {
   object-position: center;
 }
 
+.work {
+    width: 66%;
+    font-size: 90%;
+    justify-content: center;
+    padding: 15px;
+    border-left-style: solid;
+    border-left-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+.work-examples {
+    width: 66%;
+  font-size: 90%;
+  justify-content: space-evenly;
+  padding: 15px;
+  border-left-style: solid;
+  border-left-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  }
+  /*set css style for titles in "work"*/
+  .title {
+    bottom: 20px;
+    left: 16px;
+    font-family: "copperplate";
+    font-size: 150%;
+    color: black;
+}
