@@ -15,4 +15,4 @@ Develope a Portfolio Webpage from scratch displaying current projects/work using
 
 ## Website Preview
 
-![Screenshow of Reagan Yang Portfolio](./assets/img/screenshot-of-portfolio.jpg)
+![Screenshow of Reagan Yang Portfolio](./assets/css/img/screenshot-of-portfolio.jpg)
