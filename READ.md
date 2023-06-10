@@ -13,6 +13,9 @@ Develope a Portfolio Webpage from scratch displaying current projects/work using
     <li>Added alt text to all images to add accessibility descriptions to images</li>
 </ul>
 
+## Website link
+
+Link to the deploy website (https://reyyahs.github.io/glowing-garbanzo/)
 ## Website Preview
 
 ![Screenshow of Reagan Yang Portfolio](./assets/css/img/screenshot-of-portfolio.jpg)
